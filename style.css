@@ -2,6 +2,15 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Libre Baskerville', sans-serif;
+  color: #333;
+}
+
+h2 {
+  font-size: 52px;
+}
+
+span {
+  color: #ffc200;
 }
 
 .container {
@@ -9,8 +18,46 @@ html, body {
   margin: 0 auto;
 }
 
+.nav-tabs .pull-right {
+  float: right!important;
+  text-decoration: none;
+  color: #333;
+}
+
 .jumbotron {
   background-color: transparent;
+  text-shadow: none;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.banner {
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.cards, .cards img {
+  background-color: #ffc200;
+  text-align: center;
+  padding-top: 20px;
+  height: 100%;
+}
+
+.footer {
+  background-color: #333333;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.socialmedia a {
+  display: inline-block;
+  float: left;
+  padding-right: 10px;
+  width: 30px;
 }
 
 @media (max-width: 992px) {
