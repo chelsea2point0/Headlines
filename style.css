@@ -24,6 +24,26 @@ span {
   color: #333;
 }
 
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.dropdown-menu .sub-menu{
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
 .jumbotron {
   background-color: transparent;
   text-shadow: none;
@@ -43,7 +63,7 @@ span {
   background-color: #ffc200;
   text-align: center;
   padding-top: 20px;
-  height: 100%;
+  padding-bottom: 20px;
 }
 
 .footer {
